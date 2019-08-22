@@ -1,7 +1,5 @@
 body{
     margin: 0;
-    background: blue;
-
 }
 .header1 {
     background: grey;
@@ -29,7 +27,6 @@ body{
 }
 .headnav{
     width: 20rem;
-    background: ;
     position: absolute;
     right: 1px;
     display: flex;

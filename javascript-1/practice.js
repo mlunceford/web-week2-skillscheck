@@ -144,26 +144,36 @@ let doubled = myNumbers.map(function (element, index, array){
 // Now lets use .filter to only get the nubmer(s) greater than 100. Call the new array 'filtered'
 
 // Code Here
-
+let filtered = myNumbers.filter(function(val, i , arr){
+	return val > 100
+})
 //////////////////PROBLEM 16////////////////////
 
 // Next up, reduce to get the total of the array. call the new array 'total'
 
 // Code Here
-
+let total = myNumbers.reduce(function(acc, element, index, array) {
+	return acc + element
+  }, 0)
 //////////////////PROBLEM 17////////////////////
 
 // Last, lets use .forEach to find the index of each item in the array. First, create an empty array called myNumbersIndex. Next, using forEach, push each items index from the myNumbers array to the myNumbersIndex array
 
 // Code Here
-
+let myNumbersIndex = []
+myNumbers.forEach(function(val, i, arr){
+  
+	myNumbersIndex.push(i);
+});
 //////////////////PROBLEM 18////////////////////
 
 // Did you know that George Foreman has five sons named George? Let's go ahead and change everyone's name in the notGeorge array to George using .map. Call the new array 'forTheLoveOfGeorge'
 const notGeorge = ['Louis', 'Ted', 'Bill', 'Sharon', 'Mark', 'Angela']
 
 // Code Here
-
+let forTheLoveOfGeorge = notGeorge.map(function (element, index, array){
+	return element = 'George'
+})
 //////////////////PROBLEM 19////////////////////
 
 // Using the people array, let's filter out everyone that isn't our friend to a new array called 'enemies'. Use .filter()
@@ -177,9 +187,13 @@ const people = [
 ]
 
 // Code Here
+let enemies = people.filter(function(val, i, arr){
+	return val.friend === false 
+  });
 
 //////////////////PROBLEM 20////////////////////
 
 // Using the people array above, let's get a total of the awesomeLevel from all the people. Call the new array 'totallyAwesome'. Use .reduce()
 
 // Code Here
+
