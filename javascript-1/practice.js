@@ -101,23 +101,30 @@ middleNums = numbers.slice(1, 4)
 
 // Code here
 function bigOrSmall(arr) {
-  let answers = []
-  for (let i = 0; i <= arr.length; i++) {
-    if (arr[i] > 100) {
-      answers.push('big')
-    }
-    if (arr[i] <= 100){
-      answers.push('small')
-    }
-  }
-  return answers
+	let answers = []
+	for (let i = 0; i <= arr.length; i++) {
+		if (arr[i] > 100) {
+			answers.push('big')
+		}
+		if (arr[i] <= 100) {
+			answers.push('small')
+		}
+	}
+	return answers
 }
 //////////////////PROBLEM 13////////////////////
 
 // Create a function called 'arrayReverser' that takes in one parameter, arr. Inside of arrayReverser, create an empty array called 'reversed'. Using a for loop, loop over the passed in array in reverse and add each item to the new reversed array. Finally, return the new reversed array
 
 //Code Here
-let reversed = arr.reversed() 
+function arrayReverser(arr) {
+	let reversed = []
+	for (let i = arr.length - 1; i >= 0; i--) {
+		reversed.push(arr[i])
+	}
+	return reversed
+}
+// let reversed = arr.reversed()  this one would be so much easeir
 //////////////////PROBLEM 14 - 18 Setup////////////////////
 
 // Below is an array, myNumbers. We will be using .map, .filter, .reduce and .forEach to manipulate the array in some form
@@ -129,7 +136,9 @@ const myNumbers = [3, 55, 788, 2, 1]
 // First, let's use .map to create a new array that doubles each number. Call the new array 'doubled'
 
 // Code Here
-
+let doubled = myNumbers.map(function (element, index, array){
+	return element *2
+})
 //////////////////PROBLEM 15////////////////////
 
 // Now lets use .filter to only get the nubmer(s) greater than 100. Call the new array 'filtered'
