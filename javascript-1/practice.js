@@ -86,12 +86,12 @@ middleNums = numbers.slice(1, 4)
 
 // Create an object called 'me' that has these keys with the correct values: firstName, state, age, greeter. firstName will be your name as a string. state will be your current state or providence as a string. age will be your age as a number. greeter will be a method that returns the string 'Hello! My name is NAMEVALUE and I live in STATEVALUE' with the correct values
 
-// //Code Here
-// me = {
-// 	firstname: 'mark',
-// 	state: 'utah',
-// 	age: 30
-// 	greeter: me.slice(Hello! My name is NAMEVALUE and I live in STATEVALUE' with the correct values
+// //Code Here i have no idea how to do this one. i think im over thinking it but w/e
+me = {
+	firstname: 'mark',
+	state: 'utah',
+	age: 30
+	greeter: me.slice(Hello! My name is NAMEVALUE and I live in STATEVALUE' with the correct values
 
 
 // }
@@ -196,4 +196,7 @@ let enemies = people.filter(function(val, i, arr){
 // Using the people array above, let's get a total of the awesomeLevel from all the people. Call the new array 'totallyAwesome'. Use .reduce()
 
 // Code Here
+let totallyAwesome = people.reduce(function(acc, element, index, array ){
+	return acc + element.awesomeLevel
+  },0)
 
