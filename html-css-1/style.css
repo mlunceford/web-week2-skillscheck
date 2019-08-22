@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    background: blue;
+
+}
+.header1 {
+    background: grey;
+    height: 4rem;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content:;
+    
+}
+.headcompany{
+    position: absolute;
+    left: 1px;
+    background:;
+    position: left;
+    display: flex;
+    justify-content: start;
+}
+
+.company{
+    
+    color: white;
+    font-size: 2rem;
+    margin-left: 3rem;
+}
+.headnav{
+    width: 20rem;
+    background: ;
+    position: absolute;
+    right: 1px;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+.home{
+    color: white;
+    
+}
+.about{
+    color: white;
+}
+.contact{
+    color: white;
+}
+.black{
+    background: black;
+    height: 17rem;
+    width: 100%;
+    color: rgb(226, 226, 106);
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center
+    
+
+}
+.teal {
+    background: white;
+    height: 15rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+
+
+
+
+}
+.t1{
+    height: 11rem;
+    width: 11rem;
+    background: rgb(173, 238, 222);
+    border-radius: 5%;
+
+
+
+}
+.t2{
+    height: 11rem;
+    width: 11rem;
+    background: rgb(173, 238, 222);
+    border-radius: 5%;
+
+}
+.t3{
+    height: 11rem;
+    width: 11rem;
+    background: rgb(173, 238, 222);
+    border-radius: 5%;
+
+}
+.orange{
+    background: white;
+    height: 15rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.o1{
+    height: 80%;
+    width: 45%;
+    background: rgb(235, 196, 114);
+
+}
+.o2{
+    height: 80%;
+    width: 45%;
+    background:rgb(235, 196, 114);
+
+}
+.elephant{
+    background: white;
+    height: 15rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+
+}
+.text{
+    height: 80%;
+    width: 40%;
+
+}
+.picbox{
+    background: pink;
+    max-height: 80%;
+    max-width: 40%;
+        
+}
+img{
+    background: pink;
+    max-width: 12rem;
+    max-height: auto;
+}
+.foot{
+    background: rgb(71, 71, 88);
+    height: 8rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
