@@ -16,7 +16,7 @@ const yourName = 'Mark'
 
 // Code Here
 function setGroceryListTitle(x) {
-    return x + 'Grocery List'
+    return `${x} + Grocery List`
 
 }
 //////////////////STEP 4////////////////////
@@ -39,14 +39,14 @@ function removeItem(index) {
 //.For numbers between 1 and 5, return the string 'NUMBER items' with number replacing the number of items
 // Code Here
 function checkGroceryCount() {
-    if (groceries.length >= 5){
+    if (groceries.length >= 5) {
         return 'That looks like a big trip'
-} else if (groceries.length === 1){
-    return '1 item'
-} else if (groceries.length < 5){
-    return 'NUMBER items'
-    let 
-}
+    } else if (groceries.length === 1) {
+        return '1 item'
+    } else if (groceries.length < 5) {
+        return `${groceries.length} items`
+
+    }
 
 }
 //////////////////STEP 6////////////////////

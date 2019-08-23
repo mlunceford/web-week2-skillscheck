@@ -25,16 +25,16 @@ var phrase = 'I love code'
 //Create an if statement that checkes to see if the lovesCode variable is equal to true, if it is, set the phrase variable created above to 'I love code', it it's not true set the phrase variable to 'I do not love to code'
 
 // Code Here
-if(lovesCode === true){
-        return phrase = 'I love code'
-    }else{
-        return phrase = 'I do not love to code'
+if (lovesCode === true) {
+    phrase = 'I love code'
+} else {
+    phrase = 'I do not love to code'
 }
 // if (lovesCode === true) {
 //     document.body.style.backgroundColor = '#ceffef'
 //   } else {
 //     document.body.style.backgroundColor = '#ffb9ac'
 //   }
-  
+
 //////////////////Wrap Up////////////////////
 // Refresh the index.html page in your browser. You should now see a poem that uses the variables from above.

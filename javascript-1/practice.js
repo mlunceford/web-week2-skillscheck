@@ -88,13 +88,11 @@ middleNums = numbers.slice(1, 4)
 
 // //Code Here i have no idea how to do this one. i think im over thinking it but w/e
 me = {
-	firstname: 'mark',
+	firstName: 'mark',
 	state: 'utah',
-	age: 30
-	greeter: me.slice(Hello! My name is NAMEVALUE and I live in STATEVALUE' with the correct values
-
-
-// }
+	age: 30,
+	greeter: () => `Hello! My name is ${me.firstName} and I live in ${me.state}`
+}
 //////////////////PROBLEM 12////////////////////
 
 // Create a function called 'bigOrSmall' that takes in one parameter, arr. Create a new array inside of bigOrSmall called 'answers'. Loop over the passed in arr param. If the number is GREATER than 100, push 'big' as a string to the answers array. If the number is LESS than or EQUAL to 100, push 'small' as a string to the answers array. Return the answers array inside of the function

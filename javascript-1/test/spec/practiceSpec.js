@@ -99,6 +99,9 @@ describe('Week Two Skills Check', function() {
 			expect(typeof me.age).toEqual('number')
 			expect(typeof me.greeter).toEqual('function')
 		})
+		it('greeting should match', function() {
+			expect(me.greeter()).toEqual('Hello! My name is mark and I live in utah')
+		})
 	})
 
 	describe('Problem 12 - bigOrSmall', function() {
